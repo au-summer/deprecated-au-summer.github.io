@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ausummer.dev/al-folio/sitemap.xml
+Sitemap: https://au-summer.github.io/sitemap.xml
