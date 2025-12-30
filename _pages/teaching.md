@@ -2,11 +2,25 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching experience at University of Michigan and Shanghai Jiao Tong University.
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## University of Michigan
 
-Organize your courses by years, topics, or universities, however you like!
+### EECS 482: Introduction to Operating Systems
+**Instructional Aide** | January 2026 - May 2026 (Expected)
+
+Will assist in presenting a course about Introduction to Operating Systems.
+
+---
+
+## Shanghai Jiao Tong University
+
+### Game Development and Software Engineering
+**Teaching Assistant** | May 2024 - August 2024
+
+- Assisted in presenting a course about game development and software engineering
+- Developed auto grading and feedback programs for student projects
+- Conducted weekly lab and office hours for over 50 students

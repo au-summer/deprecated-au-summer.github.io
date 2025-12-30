@@ -2,96 +2,98 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Xiayang Jin
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. in Computer Science
+      institution: University of Michigan, Ann Arbor
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 4.0/4.0"
+    - title: B.S. in Mechanical Engineering
+      institution: Shanghai Jiao Tong University
+      year: 2022 - Present
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: OrderLab, University of Michigan
+      year: May 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conduct research at the System-ML boundary on reliability and performance of machine learning systems
+        - Develop system support for failure modeling, tolerance and recovery strategies of ML workloads
+        - Evaluate techniques on LLM/RLHF workloads across multi-GPU setups
+    - title: Research Intern
+      institution: Shanghai Jiao Tong University
+      year: May 2024 - Aug 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Research in MINLP optimizations and their applications in Computer Networking
+        - Designed a Machine Learning approach to boost traditional MINLP solvers
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Instructional Aide
+      institution: University of Michigan
+      year: Jan 2026 - May 2026 (Expected)
+      description:
+        - EECS 482 Introduction to Operating Systems
+    - title: Teaching Assistant
+      institution: Shanghai Jiao Tong University
+      year: May 2024 - Aug 2024
+      description:
+        - Assisted in presenting a course about game development and software engineering
+        - Developed auto grading and feedback programs for student projects
+        - Conducted weekly lab and office hours for over 50 students
 
-- title: Honors and Awards
+- title: Projects
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: PhoenixML
+      year: May 2025 - Present
+      description:
+        - Developed a stage-level automatic recovery system for distributed ML training with transient CUDA faults
+        - Designed a runtime interposition layer to transparently trace CUDA alloc/launch calls
+        - Implemented CUDA Virtual Memory Management with a proxy context for zero-copy remapping
+    - title: CudaProxy
+      year: Aug 2025 - Present
+      description:
+        - Developed a CUDA runtime proxy for ML inference using CUDA Graphs and Persistent Kernels
+        - Implemented Bucketing, Automatic Padding, and Static Memory Pooling for dynamic workloads
+        - Implemented automatic routing for kernel launches based on workload characteristics
+    - title: OS Kernel Implementation
+      year: Jan 2025 - May 2025
+      description:
+        - Developed a C++ thread library and virtual memory pager on UNIX-like systems
+        - Implemented synchronization primitives, scheduler, context switching, and page fault handling
+        - Implemented optimizations including copy-on-write and page sharing
+    - title: Dynamic Typed Compiler
+      year: May 2024 - Aug 2024
+      description:
+        - Used Rust to develop a compiler for a language supporting dynamic typing on x86-64
+        - Implemented frontend checking, SSA forming, and code generation with System V ABI
+    - title: Hyprtile
+      year: May 2025 - Present
+      description:
+        - Developed a high-performance tiling window management mechanism for Linux using C++ under Wayland
+        - Features include workspace management, windows overview, dynamic window tiling, and multi-monitor support
+    - title: Deep Learning for MINLP in Wireless Networks
+      year: May 2024 - Aug 2024
+      description:
+        - Designed an imitation learning approach to accelerate Branch and Bound algorithm for MINLP
+        - Applied to Interference Graph Estimation in full-duplex millimeter-wave backhaul networks
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - C/C++, Python, CUDA, Rust, Java, SQL, Bash
+    - title: Technologies
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Linux Kernel, CUDA, DeepSpeed, PyTorch, TensorFlow, Git, Docker
